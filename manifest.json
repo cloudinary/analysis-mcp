@@ -1,0 +1,82 @@
+{
+  "author": {
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com"
+  },
+  "description": "Cloudinary Analysis MCP Server",
+  "display_name": "Cloudinary Analysis",
+  "documentation": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+  "homepage": "https://github.com/cloudinary/analysis-mcp",
+  "icon": "icon.png",
+  "keywords": [
+    "cloudinary",
+    "analysis",
+    "ai",
+    "images",
+    "videos",
+    "media"
+  ],
+  "license": "MIT",
+  "long_description": "A comprehensive MCP server for Cloudinary's analysis APIs. Run AI-powered analysis on images and videos including moderation, captioning, tagging, and more.",
+  "manifest_version": "0.3",
+  "name": "@cloudinary/analysis-mcp",
+  "privacy_policies": [
+    "https://cloudinary.com/privacy"
+  ],
+  "prompts": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudinary/analysis-mcp.git"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "./bin/mcp-server.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/bin/mcp-server.js",
+        "start",
+        "--cloud-name",
+        "${user_config.cloud_name}",
+        "--api-key",
+        "${user_config.api_key}",
+        "--api-secret",
+        "${user_config.api_secret}",
+        "--o-auth2",
+        "${user_config.o_auth2}"
+      ]
+    }
+  },
+  "user_config": {
+    "api_key": {
+      "description": "Your Cloudinary API key. Found in Dashboard → Settings → Access Keys.",
+      "required": true,
+      "sensitive": true,
+      "title": "API Key",
+      "type": "string"
+    },
+    "api_secret": {
+      "description": "Your Cloudinary API secret. Found in Dashboard → Settings → Access Keys.",
+      "required": true,
+      "sensitive": true,
+      "title": "API Secret",
+      "type": "string"
+    },
+    "cloud_name": {
+      "default": "CLOUD_NAME",
+      "description": "Your Cloudinary cloud name. Find it in your Cloudinary Dashboard.",
+      "required": true,
+      "title": "Cloud Name",
+      "type": "string"
+    },
+    "o_auth2": {
+      "type": "string",
+      "title": "OAuth2",
+      "description": "The OAuth2 to use for the request",
+      "required": false,
+      "sensitive": true
+    }
+  },
+  "version": "0.1.0",
+  "tools": []
+}
