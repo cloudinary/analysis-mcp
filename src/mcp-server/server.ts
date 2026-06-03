@@ -18,6 +18,22 @@ import {
   MCPToolAnnotationFilter,
   registerDynamicTools,
 } from "./tools.js";
+import { tool$analyzeAiVisionGeneral } from "./tools/analyzeAiVisionGeneral.js";
+import { tool$analyzeAiVisionModeration } from "./tools/analyzeAiVisionModeration.js";
+import { tool$analyzeAiVisionTagging } from "./tools/analyzeAiVisionTagging.js";
+import { tool$analyzeCaptioning } from "./tools/analyzeCaptioning.js";
+import { tool$analyzeCldFashion } from "./tools/analyzeCldFashion.js";
+import { tool$analyzeCldText } from "./tools/analyzeCldText.js";
+import { tool$analyzeCoco } from "./tools/analyzeCoco.js";
+import { tool$analyzeGoogleLogoDetection } from "./tools/analyzeGoogleLogoDetection.js";
+import { tool$analyzeGoogleTagging } from "./tools/analyzeGoogleTagging.js";
+import { tool$analyzeHumanAnatomy } from "./tools/analyzeHumanAnatomy.js";
+import { tool$analyzeImageQuality } from "./tools/analyzeImageQuality.js";
+import { tool$analyzeLvis } from "./tools/analyzeLvis.js";
+import { tool$analyzeShopClassifier } from "./tools/analyzeShopClassifier.js";
+import { tool$analyzeUnidet } from "./tools/analyzeUnidet.js";
+import { tool$analyzeWatermarkDetection } from "./tools/analyzeWatermarkDetection.js";
+import { tool$tasksGetStatus } from "./tools/tasksGetStatus.js";
 
 export function createMCPServer(deps: {
   logger: ConsoleLogger;
@@ -33,7 +49,7 @@ export function createMCPServer(deps: {
 }) {
   const server = new McpServer({
     name: "CloudinaryAnalysis",
-    version: "0.1.0",
+    version: "0.1.1",
   });
 
   const getClient = deps.getSDK || (() =>
@@ -78,6 +94,23 @@ export function createMCPServer(deps: {
   const prompt = createRegisterPrompt(deps.logger, server, getClient, scopes);
   const register = { tool, resource, resourceTemplate, prompt };
   void register; // suppress unused warnings
+
+  tool(tool$analyzeAiVisionGeneral);
+  tool(tool$analyzeAiVisionModeration);
+  tool(tool$analyzeAiVisionTagging);
+  tool(tool$analyzeCaptioning);
+  tool(tool$analyzeCldFashion);
+  tool(tool$analyzeCldText);
+  tool(tool$analyzeCoco);
+  tool(tool$analyzeGoogleLogoDetection);
+  tool(tool$analyzeGoogleTagging);
+  tool(tool$analyzeHumanAnatomy);
+  tool(tool$analyzeImageQuality);
+  tool(tool$analyzeLvis);
+  tool(tool$analyzeShopClassifier);
+  tool(tool$analyzeUnidet);
+  tool(tool$analyzeWatermarkDetection);
+  tool(tool$tasksGetStatus);
 
   if (deps.dynamic) {
     registerDynamicTools(deps.logger, server, getClient, toolMap, scopes);

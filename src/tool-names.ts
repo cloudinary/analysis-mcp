@@ -1,2 +1,67 @@
 // Auto-generated at build time
-export const toolNames: Array<{ name: string; description: string }>= [];
+export const toolNames: Array<{ name: string; description: string }>= [
+  {
+    "name": "analyze-ai-vision-general",
+    "description": "Analyze - AI Vision General\n\nThe General mode serves a wide array of applications by providing detailed answers to diverse questions about an image. Users can inquire about any aspect of an image, such as identifying objects, understanding scenes, or interpreting text within the image."
+  },
+  {
+    "name": "analyze-ai-vision-moderation",
+    "description": "Analyze - AI Vision Moderation\n\nThe Moderation mode accepts multiple questions about an image, to which the response provides concise answers of \"yes,\" \"no,\" or \"unknown.\" This functionality allows for a nuanced evaluation of whether the image adheres to specific content policies, creative specs, or aesthetic criteria."
+  },
+  {
+    "name": "analyze-ai-vision-tagging",
+    "description": "Analyze - AI Vision Tagging\n\nThe Tagging mode accepts a list of tag names along with their corresponding descriptions. If the image matches the description, which may encompass various elements, it will be appropriately tagged. This approach enables customers to align with their own brand taxonomy, offering a dynamic, flexible, and open method for image classification."
+  },
+  {
+    "name": "analyze-captioning",
+    "description": "Analyze - Captioning\n\nProvides a caption for an image."
+  },
+  {
+    "name": "analyze-cld-fashion",
+    "description": "Analyze - Cld-Fashion\n\nAnalyze an image using the [Cld-Fashion](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. Cloudinary's fashion model is specifically dedicated to items of clothing. The response includes attributes of the clothing identified, for example whether the garment contains pockets, its material and the fastenings used."
+  },
+  {
+    "name": "analyze-cld-text",
+    "description": "Analyze - Cld-Text\n\nAnalyze an image using the [Cld-Text](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. Cloudinary's text model tells you if your image includes text, and where it's located. Used with image tagging, you can then search for images that contain blocks of text. Used with object-aware cropping, you can choose to keep only the text part, or specify a crop that avoids the text."
+  },
+  {
+    "name": "analyze-coco",
+    "description": "Analyze - Coco\n\nAnalyze an image using the [Coco](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. The [Common Objects in Context](https://cocodataset.org/) model contains just 80 common objects."
+  },
+  {
+    "name": "analyze-google-logo-detection",
+    "description": "Analyze - Google Logo Detection\n\nDetects popular product logos within an image."
+  },
+  {
+    "name": "analyze-google-tagging",
+    "description": "Analyze - Google Tagging\n\nProvides tags for an image using Google's tagging service."
+  },
+  {
+    "name": "analyze-human-anatomy",
+    "description": "Analyze - Human Anatomy\n\nAnalyze an image using the [Human Anatomy](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. Cloudinary's human anatomy model identifies parts of the human body in an image. It works best when the majority of a human body is detected in the image."
+  },
+  {
+    "name": "analyze-image-quality",
+    "description": "Analyze - Image Quality Analysis\n\nAnalyze an image using the [Image Quality Analysis](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#image_quality_analysis) model."
+  },
+  {
+    "name": "analyze-lvis",
+    "description": "Analyze - Lvis\n\nAnalyze an image using the [Lvis](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. The [Large Vocabulary Instance Segmentation](https://www.lvisdataset.org/) model contains thousands of general objects."
+  },
+  {
+    "name": "analyze-shop-classifier",
+    "description": "Analyze - Shop Classifier\n\nAnalyze an image using the [Shop Classifier](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. Cloudinary's shop classifier model detects if the image is a product image taken in a studio, or if it's a natural image."
+  },
+  {
+    "name": "analyze-unidet",
+    "description": "Analyze - Unidet\n\nAnalyze an image using the [Unidet](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#ai_based_image_captioning) content-aware detection model. The [UniDet](https://github.com/xingyizhou/UniDet) model is a unified model, combining a number of object models, including [Objects365](https://www.objects365.org/overview.html), which focuses on diverse objects in the wild."
+  },
+  {
+    "name": "analyze-watermark-detection",
+    "description": "Analyze - Watermark Detection\n\nAnalyze an image using the [Watermark Detection](https://cloudinary.com/documentation/cloudinary_ai_content_analysis_addon#watermark_detection) detection model."
+  },
+  {
+    "name": "tasks-get-status",
+    "description": "Get analysis task status\n\nGet the status of an analysis task."
+  }
+];
