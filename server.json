@@ -1,0 +1,94 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cloudinary/analysis-mcp",
+  "title": "Cloudinary Analysis",
+  "description": "Run AI-powered analysis on images and videos including moderation, captioning, tagging, and more.",
+  "repository": {
+    "url": "https://github.com/cloudinary/analysis-mcp",
+    "source": "github"
+  },
+  "version": "0.5.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@cloudinary/analysis-mcp",
+      "version": "0.5.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "CLOUDINARY_CLOUD_NAME",
+          "description": "Your Cloudinary cloud name. Find it in your Cloudinary Dashboard.",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "CLOUDINARY_API_KEY",
+          "description": "Your Cloudinary API key. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "CLOUDINARY_API_SECRET",
+          "description": "Your Cloudinary API secret. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    },
+    {
+      "registryType": "oci",
+      "identifier": "docker.io/cloudinary/analysis-mcp:0.5.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "CLOUDINARY_CLOUD_NAME",
+          "description": "Your Cloudinary cloud name. Find it in your Cloudinary Dashboard.",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "CLOUDINARY_API_KEY",
+          "description": "Your Cloudinary API key. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "CLOUDINARY_API_SECRET",
+          "description": "Your Cloudinary API secret. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://analysis.mcp.cloudinary.com/mcp",
+      "headers": [
+        {
+          "name": "cloudinary-cloud-name",
+          "description": "Your Cloudinary cloud name. Find it in your Cloudinary Dashboard.",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "cloudinary-api-key",
+          "description": "Your Cloudinary API key. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "cloudinary-api-secret",
+          "description": "Your Cloudinary API secret. Found in Dashboard > Settings > Access Keys.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

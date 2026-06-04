@@ -1,0 +1,1283 @@
+lockVersion: ""
+id: ""
+management:
+  docChecksum: a65fdbfaf49bb322db3e3a5170b3aff3
+  docVersion: 0.2.0
+  speakeasyVersion: 1.770.0
+  generationVersion: 2.893.0
+  releaseVersion: 0.5.0
+  configChecksum: 679e146d7bf7ea885d7fbf12335945ae
+  published: true
+persistentEdits:
+  generation_id: 5876ee69-789f-4546-9b9d-f5c028b51f41
+  pristine_commit_hash: 6e25ac28396f0a26ddc18568c5ebc9008b60d289
+  pristine_tree_hash: 04096fa4c73ed1076a8f2e76e83ace11fccf5b4a
+features:
+  mcp-typescript:
+    additionalDependencies: 0.1.0
+    core: 1.2.29
+    customSecuritySchemes: 0.1.1
+    defaultEnabledRetries: 0.1.0
+    enumUnions: 0.1.0
+    flattening: 0.1.0
+    globalSecurity: 0.1.3
+    globalSecurityCallbacks: 0.0.0
+    globalServerURLs: 0.1.2
+    nameOverrides: 0.1.2
+    nullables: 0.1.0
+    responseFormat: 0.1.1
+    retries: 0.1.0
+    sdkHooks: 0.3.0
+    unions: 0.2.0
+trackedFiles:
+  .dxtignore:
+    id: 0ee1c4f92736
+    last_write_checksum: sha1:0cbab1b303d9060f6324f6a9cddabe13c2cfa7c9
+    pristine_git_object: 21eeace1d85822ffb013f6c0667a19f35c33cee0
+  .gitattributes:
+    id: 24139dae6567
+    last_write_checksum: sha1:26d16d8297b104945139da8c25bd38feeaad3e25
+    pristine_git_object: 113eead5093c17d43a46159132885318f281a68a
+  .npmignore:
+    id: aa70c1f807c3
+    last_write_checksum: sha1:aa14435f0c166ebc0edbf1ae6f65128e33dc8c97
+    pristine_git_object: 0bc901db2a899e4b8f0bdcbea7fd547ef18e2fd9
+  eslint.config.mjs:
+    id: 461c8d07f6da
+    last_write_checksum: sha1:576025302d3d8650f37276bc9075f6ade3842cc7
+    pristine_git_object: 4f9e60a9462fc4def738d60c3aaadf8232ef185f
+  manifest.json:
+    id: ca642a226869
+    last_write_checksum: sha1:043721e2c1ccc8d387e8c3b6bd7218eef807fcfb
+    pristine_git_object: 80a27b2115d7a18b9acdc8b916c1d8ffee8b97ec
+  package.json:
+    id: 7030d0b2f71b
+    last_write_checksum: sha1:78ffe6a4908db93f62cdc319cbb2f152b4a9aa8e
+    pristine_git_object: a005c099e296dcb12ba189124024df2f43b2803a
+  src/core.ts:
+    id: f431fdbcd144
+    last_write_checksum: sha1:e6c76b3e17943511abc7ef622b8396393cd78ee2
+    pristine_git_object: cacd9dd84d7b178b6a388a587e8a702564579187
+  src/funcs/analyzeAiVisionGeneral.ts:
+    id: ac4119808ecd
+    last_write_checksum: sha1:87afc0d9c7c11ec12a3c151c309c1c582c92a908
+    pristine_git_object: fc6514bc034ebee57709b71d8112bbdf4f1c96f5
+  src/funcs/analyzeAiVisionModeration.ts:
+    id: 5886bdeef23b
+    last_write_checksum: sha1:f3526be26c5f62025ff3685651ef711da2d4bc16
+    pristine_git_object: 40c970e173ecf30205cf053ad4a32e011452e419
+  src/funcs/analyzeAiVisionTagging.ts:
+    id: d0aedd3c0c0b
+    last_write_checksum: sha1:419dbf92909bcd657011dd99d1221d43b8006362
+    pristine_git_object: aed77827ef7e6ccd346b2f452f62b4363c97db00
+  src/funcs/analyzeCaptioning.ts:
+    id: 033f4a9844f3
+    last_write_checksum: sha1:458f9e98656ccddb75ee5670a232620676bbc179
+    pristine_git_object: 55585a45de93bb54a4892e45e97d2844fac3fe96
+  src/funcs/analyzeCldFashion.ts:
+    id: 2656e6cdd868
+    last_write_checksum: sha1:524eaa85f3d8d7903b5ed83118c05ce1f9f58f4a
+    pristine_git_object: ebf2707f7b502723b2da078ca0a20864f5cca973
+  src/funcs/analyzeCldText.ts:
+    id: bce6be8c468b
+    last_write_checksum: sha1:05c99d6721618789f5768b8ed8c1581ff14c9407
+    pristine_git_object: 6d34aed823612d194875b8f29adb832067b0c5f4
+  src/funcs/analyzeCoco.ts:
+    id: 6d1d10633eed
+    last_write_checksum: sha1:5e7774f8052bb55df207971b5507c8d37fe17359
+    pristine_git_object: 0ddf8f6169f98417438b3b315c58f1e0000d64d7
+  src/funcs/analyzeGoogleLogoDetection.ts:
+    id: 00f6943a75a2
+    last_write_checksum: sha1:0aa7e8a3e89e1e5b9b394d1ac20ccb00c9468f3f
+    pristine_git_object: 0157c00c16876163b53fa86fe9f6993dc0c94399
+  src/funcs/analyzeGoogleTagging.ts:
+    id: 7c440488bd68
+    last_write_checksum: sha1:99ce95a54eb0b44b0821bd20759a16636d503871
+    pristine_git_object: 5433cb5ee6359589373ea33d71fbab8dcb443496
+  src/funcs/analyzeHumanAnatomy.ts:
+    id: b6fa2bd02a6c
+    last_write_checksum: sha1:13283115de1c2e2c00d2f416808651c991c89d2e
+    pristine_git_object: 5be8cdd16509acee75af0f5b6458a5e4b5ac6ae6
+  src/funcs/analyzeImageQuality.ts:
+    id: 00961c39f890
+    last_write_checksum: sha1:19ac91510d3b3977b1909811053d4613993bae26
+    pristine_git_object: 2f96f3db8f96dc2abdafb29a27439b5fc2699183
+  src/funcs/analyzeLvis.ts:
+    id: a3507dac4654
+    last_write_checksum: sha1:0ba7265cc2835ac31df4d6099b95e622092450ce
+    pristine_git_object: cb8df262217e61d37b1ef04381de35425a918e29
+  src/funcs/analyzeShopClassifier.ts:
+    id: 1d6fb8c2af84
+    last_write_checksum: sha1:b6beffd0b44d3fc546ee803c879501fb5ba0d452
+    pristine_git_object: 37c0c20fedbf28fe437809a4f13c95d1976afa78
+  src/funcs/analyzeUnidet.ts:
+    id: 7be9a79d79fe
+    last_write_checksum: sha1:62191878b3cc855ab41c23a3e634a6c5dbe98ec5
+    pristine_git_object: aa3e72e352c7e22eec569d961b35a41b3353338b
+  src/funcs/analyzeWatermarkDetection.ts:
+    id: 24eaf5834ba5
+    last_write_checksum: sha1:23babcb50656d2fb19abfad2ad996ea2fac8ef91
+    pristine_git_object: cc25e9bcc4badb4b7ffa2cac31e83663be87cb8a
+  src/funcs/tasksGetStatus.ts:
+    id: 6b65dbc91e27
+    last_write_checksum: sha1:8e9985146b20c61fefa61d466b36d4e63aeb6dcf
+    pristine_git_object: fb8a26c8b8dedfe2d58b41d8e72acc472c67cbb7
+  src/hooks/hooks.ts:
+    id: a2463fc6f69b
+    last_write_checksum: sha1:36c7bf5c31e0986fba9e0f9db28a769be7904ffd
+    pristine_git_object: 28c90f854c4e8bba492d873d391ea8d68ca6e009
+  src/hooks/oauth2scopes.ts:
+    id: a709b8ce2ddb
+    last_write_checksum: sha1:66ca5b919f38d37a729841cc95ef8bb1fc98b885
+    pristine_git_object: 5e5421ca700fc978dd1dcdc202a6c830e19fd07b
+  src/hooks/types.ts:
+    id: 2a02d86ec24f
+    last_write_checksum: sha1:622c2ac820271766bc4010bfc3904738c4c5ed0f
+    pristine_git_object: ccd5e5d812cb4d21a1013c89f04daad9d2f72190
+  src/landing-page.ts:
+    id: ef64a6ee46d7
+    last_write_checksum: sha1:6d13f6f8f8a63bdf2d1760c6312b706dfc272302
+    pristine_git_object: d8b2e6d397c83455373bd4a0525f8e5afb6fd923
+  src/lib/base64.ts:
+    id: "598522066688"
+    last_write_checksum: sha1:716fa8938b85035068c8bc0586e92aa17f8e21a2
+    pristine_git_object: b45f432798e2151eee7f6eb4df628b7310942c01
+  src/lib/config.ts:
+    id: 320761608fb3
+    last_write_checksum: sha1:2727ba3580e966371b8b2aba7993ee10ce29ddfa
+    pristine_git_object: 8e81e37bfabb1c84c6062a90b482a245e34ddd5d
+  src/lib/dlv.ts:
+    id: b1988214835a
+    last_write_checksum: sha1:eaac763b22717206a6199104e0403ed17a4e2711
+    pristine_git_object: f4c75aca30d4e0610454c7836af262a5a0cf7623
+  src/lib/encodings.ts:
+    id: 3bd8ead98afd
+    last_write_checksum: sha1:f6854bb9647fc97935f26b39721fa877814cebc1
+    pristine_git_object: 291c18d358d5ecd1aa4ea0bdb531b3a9f8659e8c
+  src/lib/env.ts:
+    id: c52972a3b198
+    last_write_checksum: sha1:d99526e459d9c93416062d1c43d4e0edea49a02c
+    pristine_git_object: 8893ae1bf9ad192eb0728f08e5b29db74ca47455
+  src/lib/files.ts:
+    id: e5efa54fcb95
+    last_write_checksum: sha1:eca69f15b691e2fbe6d5b15e9b84add4c730c3d7
+    pristine_git_object: 65b68cb732d16030625a4370a45e29fd78abd94b
+  src/lib/http.ts:
+    id: 63a80782d37e
+    last_write_checksum: sha1:e60a1f9c9ffffd11bcf7fd47e51ac93f4ec1ba2d
+    pristine_git_object: 326ee1a058794d1388fbb80359df9cb21e58566e
+  src/lib/is-plain-object.ts:
+    id: b9862591096a
+    last_write_checksum: sha1:7d043eeb4ab74f94b84076f2cd455e589ad0d7c5
+    pristine_git_object: 096b49bf45db19c025e039486f55c6acfb021e81
+  src/lib/logger.ts:
+    id: 7ee7741a02bf
+    last_write_checksum: sha1:6615bc573f4a3922bb6c8cf8080142d9d8afd1ef
+    pristine_git_object: 323f1895a0266be873f16a924dd58fa500dc97e5
+  src/lib/primitives.ts:
+    id: 74859f750b28
+    last_write_checksum: sha1:6e736987cdaa38fc76c18eba0cdc35bef102bb71
+    pristine_git_object: 8d6cffcba5157f4c7949e59f9f0308adbbb50dea
+  src/lib/result.ts:
+    id: ab7a4c1c4c71
+    last_write_checksum: sha1:340784be0370913e690ee044b6b872b526d80b55
+    pristine_git_object: 6b5dcf6034b947b7fc8c0e556adaf0d5c521049d
+  src/lib/retries.ts:
+    id: b24a69d15639
+    last_write_checksum: sha1:016edbbc4d9ac3b0be7760e034334e7bd7283a77
+    pristine_git_object: 0059a5eb667527ef7ec58c24c9f95b634f3c992f
+  src/lib/schemas.ts:
+    id: deb4b531fae1
+    last_write_checksum: sha1:535b186219f7ab21771f0df73026d3724537f03b
+    pristine_git_object: c05ed79db28f51121a621e195842e64aaf85f755
+  src/lib/sdks.ts:
+    id: 8a6d91f1218d
+    last_write_checksum: sha1:6785d386e66e47d6a51fcd8de03477bd0269aef4
+    pristine_git_object: 121864c12647820b0d049a7d87572080c4b85c6f
+  src/lib/security.ts:
+    id: 0502afa7922e
+    last_write_checksum: sha1:910928c3b186400f43ae854ae6f480be3cca5c76
+    pristine_git_object: 0d58b46eab8e3fabf538178650bc47d4b8d0c860
+  src/lib/url.ts:
+    id: b0057e24ed76
+    last_write_checksum: sha1:f4b6ce0ff024f800fa438fb082f8f7faae50172c
+    pristine_git_object: 46b8b36297b90de55ad6a273f6cc26e4cb227261
+  src/mcp-server/build.mts:
+    id: f7a2ed2de4d7
+    last_write_checksum: sha1:fc08ccde7b8703a94411bb37b97ba5dd51a686db
+    pristine_git_object: 1cdf8979378936f964a3c0e6275b7e7a5689a14c
+  src/mcp-server/cli.ts:
+    id: 4ade0ef98b00
+    last_write_checksum: sha1:328ffc5ed0eca56509bf2828264c3b2c87926e09
+    pristine_git_object: ed4a1808d7da14f0f0bb0cf27cc7eb7414a3182c
+  src/mcp-server/cli/serve/command.ts:
+    id: 7cd4394c80e8
+    last_write_checksum: sha1:0464855310f1bd9eda30929279dba8f150b6a2df
+    pristine_git_object: 302457207d07cc7fdab727a839a9af2cd65ef774
+  src/mcp-server/cli/serve/impl.ts:
+    id: 03e83f226068
+    last_write_checksum: sha1:576dbb482a4681c2de52ffd476d7f981db57a194
+    pristine_git_object: f04bfff1aca5c659e70b25b1d062459cb899f001
+  src/mcp-server/cli/start/command.ts:
+    id: b3e53408ccb4
+    last_write_checksum: sha1:89f83dc88b98011b21497dc8f217b93aa6e38837
+    pristine_git_object: 7cc7915960e0feaca2afccbe4e7c8a1f8821c5f6
+  src/mcp-server/cli/start/impl.ts:
+    id: 37494f674015
+    last_write_checksum: sha1:4200a771f49e24c307cce0ab81eba3a0c0e72712
+    pristine_git_object: 243ee0d2d3051a16ccd307c4dbaef039aeef749f
+  src/mcp-server/console-logger.ts:
+    id: 57aff4ff2e15
+    last_write_checksum: sha1:92b145078aa234abdc2523fe335a6fab14423a6d
+    pristine_git_object: f063cef82b992553f4d9dc87a88202726df01be9
+  src/mcp-server/extensions.ts:
+    id: 3d9d20ff158f
+    last_write_checksum: sha1:51ad5c4f9db1bd812cdd8270001773ac13b30353
+    pristine_git_object: d0ea2e4a0dda5e6e3f692eb41a69de174eb66d89
+  src/mcp-server/flags.ts:
+    id: 0167e624a516
+    last_write_checksum: sha1:0b2f8014a210a103408e7b3d2151c766c8fab6cd
+    pristine_git_object: 73fbc702475787109cd044d8eeb4b5c8e60089fe
+  src/mcp-server/mcp-server.ts:
+    id: aabbc4ab07c1
+    last_write_checksum: sha1:2f7a04193796962d913e4d174762755d4fe91637
+    pristine_git_object: 3981538dc082f0eb64067d376311f04f0b98fec6
+  src/mcp-server/prompts.ts:
+    id: 26f3d73cbf31
+    last_write_checksum: sha1:2a3f00a0cf780a03ca4e2be4d57b51484ce02ee8
+    pristine_git_object: 409109e08f3b165f1e063c93619712b90099d42b
+  src/mcp-server/resources.ts:
+    id: cb0c57ebeaea
+    last_write_checksum: sha1:a4e1af4249606cad484e5e4a8b228a45ebe78b2d
+    pristine_git_object: d251270acaa310384a01273df22c1d84e4f1c9a3
+  src/mcp-server/scopes.ts:
+    id: 8966d24256b2
+    last_write_checksum: sha1:5d7f452efc469fe7a5039f5542caaaee43a6667f
+    pristine_git_object: 524b864b4a0d515386ff3f42ed22463827039c06
+  src/mcp-server/server.ts:
+    id: 2784dd48e82a
+    last_write_checksum: sha1:595b666b85d5cd778c3c0e8c7cca8f4dfff53b0c
+    pristine_git_object: 9cd754fff8d6d38c65a542a2876db23a79604543
+  src/mcp-server/shared.ts:
+    id: 074e80d4be1e
+    last_write_checksum: sha1:89d816c34ea71049cbf484f9704239e5372858f1
+    pristine_git_object: de2973d0d371eb329d41e23de6da3c0b04524ec6
+  src/mcp-server/tools.ts:
+    id: 654d5d1f2062
+    last_write_checksum: sha1:430c85873500f26232ae24f856eebd7acdc7dc20
+    pristine_git_object: 081e25630eaf7823dd47eb296daa6ed025dc7db9
+  src/mcp-server/tools/analyzeAiVisionGeneral.ts:
+    id: d69769811e99
+    last_write_checksum: sha1:c56ff2ba96de46fae1f8a91d9b42f3ecc2a876ef
+    pristine_git_object: c1706c4edfb5623090c79bef990f857c323c23d5
+  src/mcp-server/tools/analyzeAiVisionModeration.ts:
+    id: 43e7bfc1df31
+    last_write_checksum: sha1:65e24763c79002686bae11c46d15e5dbfe143e40
+    pristine_git_object: e0f9adfc80f85e8593cba041c246d16c751740ee
+  src/mcp-server/tools/analyzeAiVisionTagging.ts:
+    id: 1839074efd31
+    last_write_checksum: sha1:739c5b707d2e362b1b0a2b5e49344ceda2ba170c
+    pristine_git_object: cf402894746a2ab6daf66131cf7fed3b33bdbb91
+  src/mcp-server/tools/analyzeCaptioning.ts:
+    id: e79d6f5e602f
+    last_write_checksum: sha1:555c6831c650698c96c8b25d71dacb106e8237cb
+    pristine_git_object: 28c7ca9479df43764c4b0a63f260449d277ff5df
+  src/mcp-server/tools/analyzeCldFashion.ts:
+    id: 3c5af3c71bce
+    last_write_checksum: sha1:89f5626cfd205ad904266774488a318c3476edbf
+    pristine_git_object: 45ffadc0fbb76bb06c10b6831c95af2e7d282ff9
+  src/mcp-server/tools/analyzeCldText.ts:
+    id: 7155cae7a14a
+    last_write_checksum: sha1:dce3b4f785d14afe1a5db19f1c97067f7283bf64
+    pristine_git_object: 8d1d191128591c13175135d6f7eccf8f681ada99
+  src/mcp-server/tools/analyzeCoco.ts:
+    id: 8be3ce45f1cb
+    last_write_checksum: sha1:53f4c435fd187012f790df6760fbd526c5cd1d16
+    pristine_git_object: c3f83c3917362e3256c52ee69f14b4ca3d56fee9
+  src/mcp-server/tools/analyzeGoogleLogoDetection.ts:
+    id: e0306d3db7bf
+    last_write_checksum: sha1:dd0459485017a04f9200b3887c8ed59a319f9dd3
+    pristine_git_object: 2c8c8eaac276044d122f7aa8d4d828178958f0a9
+  src/mcp-server/tools/analyzeGoogleTagging.ts:
+    id: 07290045f952
+    last_write_checksum: sha1:ad842f882cd7f7bcbc0b8ea09f8862bd6ab512ed
+    pristine_git_object: 4a8e184403246c37e12e30ed9bbadec0e2b3e9ba
+  src/mcp-server/tools/analyzeHumanAnatomy.ts:
+    id: e84490166b98
+    last_write_checksum: sha1:f6a4c3fdd58ae6ad0ed10ea118dbee72afc594ff
+    pristine_git_object: e9800db7567c85742b6956d568e7ff3b3218e6a9
+  src/mcp-server/tools/analyzeImageQuality.ts:
+    id: 401d99534576
+    last_write_checksum: sha1:744f824dd6fdc08a47866478ffa1f9abd20da26c
+    pristine_git_object: 11543d12405a0af1b6042709fb43fd2da32d603f
+  src/mcp-server/tools/analyzeLvis.ts:
+    id: 951b487c0de7
+    last_write_checksum: sha1:733d9348f309198c1cce95a135245acf31a13568
+    pristine_git_object: b8f12f5135d07c70c0324ce7fc9bdd2e20747806
+  src/mcp-server/tools/analyzeShopClassifier.ts:
+    id: 5690b2c184a3
+    last_write_checksum: sha1:e35aa69c39e4cb4aad4cb57c5dff1854096cfe6c
+    pristine_git_object: 8852f46a2a3b9337c005f8085f85fca788ac313a
+  src/mcp-server/tools/analyzeUnidet.ts:
+    id: cef4318da9bd
+    last_write_checksum: sha1:ff25b9adc501a3bebf2471da8e2288bb1ac0c398
+    pristine_git_object: fe01a2d2cbe46ce5f93e0435993ee9fc4ae214fa
+  src/mcp-server/tools/analyzeWatermarkDetection.ts:
+    id: 743413b16edf
+    last_write_checksum: sha1:1b7b8a68221fcd3672de362ad37a9e38385ea720
+    pristine_git_object: bfdbe34843c56a13dd1d2ebe24ac827d4d889350
+  src/mcp-server/tools/tasksGetStatus.ts:
+    id: eddba7bb471c
+    last_write_checksum: sha1:6e9348037a8b08a5022526d4456a6d4895ccfede
+    pristine_git_object: 4a23bc190d0612e12df836a2b144ed3fec2637f5
+  src/models/aivisiongeneralanalysisdata.ts:
+    id: 885daeccfcb9
+    last_write_checksum: sha1:aaea308999d4d8fa0695bc1c29a89ab5f29612be
+    pristine_git_object: da3543cafa5276eb82eec6bd205adf0ba7e08247
+  src/models/aivisionmoderationanalysisdata.ts:
+    id: 73133ffc6631
+    last_write_checksum: sha1:e4963897354692720648c644783d2b87b8d18e8c
+    pristine_git_object: 4d4cb69d2c4c8362b55ffbd6c0a475324b4d0d2e
+  src/models/aivisiontagginganalysisdata.ts:
+    id: 041ff63ac3f6
+    last_write_checksum: sha1:8a830d02fbfde362043bed0c7311e0cbe201fde8
+    pristine_git_object: 8000dddb1b55d6b538cb88f5140adba7809293ec
+  src/models/analyzeaivisiongeneralop.ts:
+    id: 91eaada8e42c
+    last_write_checksum: sha1:fbf228c785ac80a4713d1cd13586bbb76bb72499
+    pristine_git_object: 88429721e543f8afdf5202e655c77fe1e251726c
+  src/models/analyzeaivisiongeneralrequest.ts:
+    id: e8ba0f446043
+    last_write_checksum: sha1:57b8c28a05eeef8d40aeaaf1375c8ad344dc2933
+    pristine_git_object: 920fdcc8f7b7220e7024b47408e1a1ed10578fb9
+  src/models/analyzeaivisiongeneralresponse.ts:
+    id: 3f7256aacb78
+    last_write_checksum: sha1:695edf146ef3051ef96d9773464e200d2ad16981
+    pristine_git_object: 38979768737244dbfd6ca5c03a028593b08fa812
+  src/models/analyzeaivisionmoderationop.ts:
+    id: a21fc8489316
+    last_write_checksum: sha1:eef7bd0d24742263d06bf74cc4d6f8cd83abbe11
+    pristine_git_object: 82eb6831caa15b6a059a9be3692530b7a17c7377
+  src/models/analyzeaivisionmoderationrequest.ts:
+    id: 37f00258b4df
+    last_write_checksum: sha1:9cb1a3a754482499e8cdf27ec5cdd3696919d8a0
+    pristine_git_object: 35e1815b171a047f4955586d703bb900b7eff32c
+  src/models/analyzeaivisionmoderationresponse.ts:
+    id: 45439484834e
+    last_write_checksum: sha1:d96dfc2b64952d04ff4abc77290fdaa888addfc3
+    pristine_git_object: 8438fdac1e6471b70bad953e7308a301e4671a0b
+  src/models/analyzeaivisiontaggingop.ts:
+    id: 6f0632ec6a69
+    last_write_checksum: sha1:448bf273513f13b6e2cdb20ccee06add1b057d76
+    pristine_git_object: 4d365c48ac6d93a0334092fd95652b8b174e1a59
+  src/models/analyzeaivisiontaggingrequest.ts:
+    id: 32957ce38bf8
+    last_write_checksum: sha1:0132528a354032bd4964847a61271001f9600f74
+    pristine_git_object: 0f56ba8e099f237541dc10300bd962d53a4502ce
+  src/models/analyzeaivisiontaggingresponse.ts:
+    id: 6faae5b9fbee
+    last_write_checksum: sha1:e484c3d1d4ffa657535612eaa16d57916a041b80
+    pristine_git_object: 8f10236e07ea06bde1ad40f3a37c6c7122d732a7
+  src/models/analyzecaptioningop.ts:
+    id: d5717f598877
+    last_write_checksum: sha1:43f112b8ab881749f0aab2d5d121c171e8d76a4b
+    pristine_git_object: 7eaf1ec38a82ae5a485ea1849a098cf2dd5fe101
+  src/models/analyzecaptioningresponse.ts:
+    id: dd968f2df382
+    last_write_checksum: sha1:815343d659f0670803140deef32a0571d73b821b
+    pristine_git_object: 2d40caafca862edb467d0020e97ecfeb68699d12
+  src/models/analyzecldfashionop.ts:
+    id: 33e6f42893cc
+    last_write_checksum: sha1:d0100f55ca41dadcf8e24c494263601c050880a5
+    pristine_git_object: 409428a16da2e01c4bff732c6b35b7763caf7ee4
+  src/models/analyzecldfashionresponse.ts:
+    id: f751f21011a2
+    last_write_checksum: sha1:020379116ac01dae11808ea4527f017b32e76da7
+    pristine_git_object: 914236b4aae1c86a1e91cc493b9736fd8639161c
+  src/models/analyzecldtextop.ts:
+    id: 5fd0cf1db423
+    last_write_checksum: sha1:647f565552242e64921af7c2c2e114c6c16bce30
+    pristine_git_object: cb6144990f91a11d4b0b1051c659fc90174f666f
+  src/models/analyzecldtextresponse.ts:
+    id: dabb9d07e03c
+    last_write_checksum: sha1:44e8cd6062a2cd23bac54e7f4c6118a66d224448
+    pristine_git_object: 969f60dbb5960c2e02dbd339c91f0473aa1fd202
+  src/models/analyzecocoop.ts:
+    id: d9ccacd49f1f
+    last_write_checksum: sha1:1ca24b1491f522d3bfec0ab364ca5d7594dc32f1
+    pristine_git_object: 3795f8825bf0b9aeeef727f4e67c244925be5674
+  src/models/analyzecocoresponse.ts:
+    id: ba10618ff49a
+    last_write_checksum: sha1:a9ec645c75359c4af96c1b5beaf4f3b3932394c7
+    pristine_git_object: e79cb30ea37fc5d2b5df4b2ed7445796389c5c2c
+  src/models/analyzegooglelogodetectionop.ts:
+    id: 7d8917054e34
+    last_write_checksum: sha1:9f4cf289adc90b384c65b3b6356b257eafe68c99
+    pristine_git_object: f0b1bdc9e697d31da60313c54e04a4305211abd2
+  src/models/analyzegooglelogodetectionresponse.ts:
+    id: 11a0be4b4171
+    last_write_checksum: sha1:3c8f4e6dd39f7b3818ee6b91e398a318c807cc8d
+    pristine_git_object: a3b78dd314fa234a8729f1c6ab83a2cca76c3d6f
+  src/models/analyzegoogletaggingop.ts:
+    id: 2492854e57ce
+    last_write_checksum: sha1:6e6ffc910ac32ae46ed59e37bcaf4ff2f98a37af
+    pristine_git_object: e7e803dd673b11175bac287fceeb5455fe9157dd
+  src/models/analyzegoogletaggingresponse.ts:
+    id: 8e274a62d3b4
+    last_write_checksum: sha1:853a708a4f582befa120be1a3c7841f4a2aad991
+    pristine_git_object: 600746c6379a67a297004b6cde9891fa900be905
+  src/models/analyzehumananatomyop.ts:
+    id: 1fc62543b0bf
+    last_write_checksum: sha1:2f64f35a331876f17eabbafd085924ee8b97f825
+    pristine_git_object: 3cba5ba5aca7fdf6ecf1bf89cc9fea605737048e
+  src/models/analyzehumananatomyresponse.ts:
+    id: a078ef452dfa
+    last_write_checksum: sha1:9d551306a0d2607c5f96f0fec1d416f5a36efdb0
+    pristine_git_object: 44314f8b50badc95d5fcde4af839bb4fd025be0e
+  src/models/analyzeimagequalityop.ts:
+    id: 4590a235350e
+    last_write_checksum: sha1:c304c85736a2a49170a1fb2001339f9260a13fb8
+    pristine_git_object: 36d2bcfc59ee30f6c411dc9fee23e363a404924d
+  src/models/analyzeimagequalityresponse.ts:
+    id: eedac4b61de0
+    last_write_checksum: sha1:c38171d329a770ca01da1fb92b9725e6cc39fdb1
+    pristine_git_object: 55769c04b3a4e3b2b24ea15123380b114ffd48f3
+  src/models/analyzelvisop.ts:
+    id: 68a0e01f801b
+    last_write_checksum: sha1:4e955a18c603f9bcd473c8cb1f634ebbc0064746
+    pristine_git_object: 43a5e924b901f9febfcc69e71f4eb08dce98a4a1
+  src/models/analyzelvisresponse.ts:
+    id: 584adef7fe82
+    last_write_checksum: sha1:1d71ff1b6f905bbf850d33e9ceb9373c57dd0220
+    pristine_git_object: 8cc722c321462a7b36246cdd9acbdfa6a39a06f7
+  src/models/analyzeshopclassifierop.ts:
+    id: 77e26c854bfa
+    last_write_checksum: sha1:2e0104c8b8886f85540398548fd2a80c5fe6f839
+    pristine_git_object: 879fbff996f7e3b1e35a80b3a2f60f7b7bb31c74
+  src/models/analyzeshopclassifierresponse.ts:
+    id: 85a52261e728
+    last_write_checksum: sha1:92df767a52ccaa22ce84d65c9d1f18393aa0c193
+    pristine_git_object: 9d239256947ecbe8dd2cfaf74ac322acc3e752ed
+  src/models/analyzeunidetop.ts:
+    id: d1b5fd389d54
+    last_write_checksum: sha1:f8a20a12ad4835d531e73b398f28253e9ab0abf9
+    pristine_git_object: c16ae9bb1b28d73f4750e6f344e482036dd3770d
+  src/models/analyzeunidetresponse.ts:
+    id: 9674ffd6588c
+    last_write_checksum: sha1:ac9f2a8d055f6a1352ac88a4dee6b23440993c8d
+    pristine_git_object: 7b36dc20e4a39e1d11825858ed1edabed491903d
+  src/models/analyzewatermarkdetectionop.ts:
+    id: 67f27471e0b8
+    last_write_checksum: sha1:6a924be7df62ddfc4b3c0c78d4f5bfc9dc6077a1
+    pristine_git_object: e9e1bf7200c9b0b494d70af194cbcb1fdabee8fa
+  src/models/analyzewatermarkdetectionresponse.ts:
+    id: 1d3dfbd56135
+    last_write_checksum: sha1:a0a5cdf704414cb7d05accd43772605da6141864
+    pristine_git_object: e8c96d865f4d571999318467eb51d2b0743e73d9
+  src/models/asyncoperationacceptedresponse.ts:
+    id: 06cd99d33c6a
+    last_write_checksum: sha1:5cf0a5542730b36d4254f81ff440b40e9cc9d4f2
+    pristine_git_object: 0aaaae7317b0a0be5b4dc90ffba18aa03c86b29e
+  src/models/baseanalyzerequest.ts:
+    id: 9268e87ed65b
+    last_write_checksum: sha1:3410868ba4e6eb3e025b048caa31384faa75a53a
+    pristine_git_object: e45815f04be4572fd1b9ca9579c19cbfa3f1f482
+  src/models/captioninganalysisdata.ts:
+    id: 3ca6beb71aac
+    last_write_checksum: sha1:c2f653e8a10b529cf6df01506a839e757fbe789c
+    pristine_git_object: 046b1ee2a0c051a7ed433f9712f6711a47ed6d76
+  src/models/cldfashionanalysisdata.ts:
+    id: "554344456559"
+    last_write_checksum: sha1:5ad695a48f272467f8d9e9c088dee8a78b8d062a
+    pristine_git_object: 31b5e193b83ca0d7b51f2dcbabc08f42de95cacb
+  src/models/cldtextanalysisdata.ts:
+    id: 894ff33f3f83
+    last_write_checksum: sha1:8d4aa2799653892e29efd2dab64276d07527224c
+    pristine_git_object: 25dcc93c9b554fd46b24098c30571725c002e2db
+  src/models/cocoanalysisdata.ts:
+    id: 552cb1938fff
+    last_write_checksum: sha1:fe07cee166093cb01007d0487acd8f61a8c85967
+    pristine_git_object: f0f5d34b2d61371bd7b603a75b652533331a947c
+  src/models/errorcategory.ts:
+    id: 369096a8494a
+    last_write_checksum: sha1:786eefbb420290cc46268c5437cf3410abbb5323
+    pristine_git_object: cdf0d678c7f712fb5f779976c0f0864f24c83e27
+  src/models/errorobject.ts:
+    id: 54d020b54f48
+    last_write_checksum: sha1:55d6cdef86ced476bd1f01004b81850a4ec73253
+    pristine_git_object: 7fd39b370d60798ca36dc5e402202daf347f54c6
+  src/models/errorresponse.ts:
+    id: 55a21b891851
+    last_write_checksum: sha1:9007ec40107483036eec8e2da5107bc024429b30
+    pristine_git_object: f11033449ce20d7c031cd90019dbe1dc17212047
+  src/models/errors/apierror.ts:
+    id: e2280e075454
+    last_write_checksum: sha1:b6927c28c3304c3afffb374d0b20e865c6bab933
+    pristine_git_object: 0161870bccb8c393a5722a955f57bcf39c585c20
+  src/models/errors/httpclienterrors.ts:
+    id: 6948de76af99
+    last_write_checksum: sha1:ecfe6470690d643550eb3f425796c18ff9311aa7
+    pristine_git_object: 53bb3cfae157b89fda8e4a5b0f1dd709da82c1c9
+  src/models/errors/sdkvalidationerror.ts:
+    id: fb6b2b49c445
+    last_write_checksum: sha1:007cf5906a9195d49150c032fc710a38bf76c074
+    pristine_git_object: 6e164d3e7edbc93fa65afff3b80ecb5044c9d273
+  src/models/feature.ts:
+    id: 31d7acca0a1e
+    last_write_checksum: sha1:38e2adefc25d101184f927aefecae1596c5de488
+    pristine_git_object: 97a0a05d6715e5318b119a00369310f1a4783cfd
+  src/models/getanalysistaskstatusop.ts:
+    id: 553bb8930632
+    last_write_checksum: sha1:532cdecc11e12db9631d37df2083252a0494a64b
+    pristine_git_object: 02bdf4389084c73a792370c3bdf285a5f61a2977
+  src/models/gettaskstatusresponse.ts:
+    id: b564d8b72b9a
+    last_write_checksum: sha1:d6a120c536642e25be8679f5058dd5efadbe3496
+    pristine_git_object: 5f14681f461cb6d8869d7663ace91eb0d4787e91
+  src/models/googlelogodetectionanalysisdata.ts:
+    id: 918519fc41f1
+    last_write_checksum: sha1:730848960a1cde637980efcffbc3f74ca1db4022
+    pristine_git_object: ccee3ef7c6f64b69ac0a69622ad07a19eabdd341
+  src/models/googletagginganalysisdata.ts:
+    id: fe5c21a7cf7f
+    last_write_checksum: sha1:c767f1041c75e57d92c04a12a59e1ccca73f75d6
+    pristine_git_object: 547b66e53423e468b11edcf8ed1ee3a1e1f04f68
+  src/models/humananatomyanalysisdata.ts:
+    id: 1d8615836f31
+    last_write_checksum: sha1:0871447c15ae3fb02cdec8ea366edcb4c643fe60
+    pristine_git_object: 80ed8d2d5fefa2acf2a67e189bec8f8476129725
+  src/models/imagequalityanalysisdata.ts:
+    id: 66d5b48b40c0
+    last_write_checksum: sha1:899ffc14e341c8d1ec9db6023a2f43a9d13ffdd8
+    pristine_git_object: 9f8bf54b311a221ed9d33622e66de46056136bb0
+  src/models/limitsobject.ts:
+    id: 2401b1ad1b38
+    last_write_checksum: sha1:e37b843d4081192c5bcf9e705acee240051eff8b
+    pristine_git_object: a990dac11cff1da4cfe9ebf6405d6f85eb98cc68
+  src/models/lvisanalysisdata.ts:
+    id: e992e6df78f6
+    last_write_checksum: sha1:9641eb88411dcf7d9e0f5610bb35ff9a08238b6c
+    pristine_git_object: 8814b369c224d2abea349320df68eec9c2898d01
+  src/models/ratelimitedresponse.ts:
+    id: d632a065f0ef
+    last_write_checksum: sha1:1d0c459330c511333913000e7dff8d01253f14c2
+    pristine_git_object: a5aa639930712eb0075716635399ab06504dec9b
+  src/models/schemecloudinaryauth.ts:
+    id: 12cfe3c34e03
+    last_write_checksum: sha1:86ff639a6517cebfd5875eb8ccf070dce7cd33ed
+    pristine_git_object: e80eee1088e8cb09aebb2f187b02d5f7e42dd687
+  src/models/security.ts:
+    id: d90c6c784ca5
+    last_write_checksum: sha1:8851f65ff457044f21a6dc16c781033a047d7852
+    pristine_git_object: 9d70c42f1fb8c23191b0cb39ef500d9ac28b7aec
+  src/models/shopclassifieranalysisdata.ts:
+    id: 77da6f3680a7
+    last_write_checksum: sha1:51ecb32c0cdeae8f1a5b5498cd6e7022ec7e41da
+    pristine_git_object: a456784e93efe81370826529ce927d5d4dbe5bca
+  src/models/source.ts:
+    id: d297129752ea
+    last_write_checksum: sha1:df8d6d17c1c56847225b7d09c38e3509c943e6c8
+    pristine_git_object: 31895a3d171cb731b83758337556ed2bbaa56181
+  src/models/taskstatus.ts:
+    id: 53ca97329a8b
+    last_write_checksum: sha1:96c2d7c1bbef11493c2437325fc83da27af4eb82
+    pristine_git_object: ebc4dbef268a0be8656a420587bf03d222b22558
+  src/models/unidetanalysisdata.ts:
+    id: 1286169d34b5
+    last_write_checksum: sha1:c4ea262b089b111ae8ebbf9b5f0145bafd1ac4b9
+    pristine_git_object: 487c7024315e4a7d174c9e3ba388c461a20754fc
+  src/models/watermarkdetectionanalysisdata.ts:
+    id: 1e70cb91f63e
+    last_write_checksum: sha1:f58bd6cea521989786bd54abd4c8ff23e1683583
+    pristine_git_object: 5714f05370cde74f9681d36754b33d7596462e63
+  src/tool-names.ts:
+    id: a9977280f9eb
+    last_write_checksum: sha1:9c8fe8a5f6f40aeed04310d6573a69796fa69424
+    pristine_git_object: 842146492e20dd777660098adb0aa1e7973dcc57
+  src/types/async.ts:
+    id: fac8da972f86
+    last_write_checksum: sha1:e2a7c53b428567587741f38e6da489f596de6227
+    pristine_git_object: 634e549aca9ff3ed96d8f3e7898f78ac6d752d60
+  src/types/bigint.ts:
+    id: 3ca6e3280e43
+    last_write_checksum: sha1:b4c753c3b089c8f8f841ca7514e87c6ec431ee4f
+    pristine_git_object: 6dfb85fb736293ecf41793b9ff13cf97a842a073
+  src/types/blobs.ts:
+    id: f8ab9b326c86
+    last_write_checksum: sha1:2660c6b17947053d8ffe05e83407c31543047a23
+    pristine_git_object: 563c0c23002407ee7a470ad39406306055a1b44b
+  src/types/enums.ts:
+    id: 4d03ddfe5100
+    last_write_checksum: sha1:d4b63948a5580aa49dbce10761cb125e69d65d9e
+    pristine_git_object: 9e3ac0191e1d6c3e5032ea0c77bc95aadbe2d5dc
+  src/types/fp.ts:
+    id: ae9f0fb8aab6
+    last_write_checksum: sha1:fcf17e51e79a8e6894d0bea905f9be991617d23a
+    pristine_git_object: 7d4f9f139bcbd770fe3d0850eaa6761758311b50
+  src/types/rfcdate.ts:
+    id: 9eb64906dcd6
+    last_write_checksum: sha1:a00ef5838da2b85c35da290dc01660845f8dbeb4
+    pristine_git_object: 05a12a9ea1c818e7cb49104f009b6cc6376bac25
+  src/types/streams.ts:
+    id: f99be9c4bf14
+    last_write_checksum: sha1:21b75828c957ee30985ddcc9f9f2704991242a58
+    pristine_git_object: 88c11154994b57fb078cef64729ba329636827a9
+  tsconfig.json:
+    id: 61ebb9fd6e8c
+    last_write_checksum: sha1:2a1769fabf9e934fa0b118db46d3b66cb500a6b7
+    pristine_git_object: 0ca48942a1b9cd923d614985dfb81f0dc7e1d298
+examples:
+  analyze_ai_vision_general:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "prompts": ["Describe this image in detail", "Does this image contain an insect?"]}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"responses": [{"value": "The image contains one cat."}, {"value": "The cat is on top of the table."}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}, "prompts": ["Describe this image in detail", "Does this image contain an insect?"]}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"responses": [{"value": "The image contains one cat."}, {"value": "The cat is on top of the table."}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-ai-vision-general:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook", "prompts": ["Please describe this image in detail", "Does this image contain an animal?"]}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"responses": [{"value": "The image contains one cat."}, {"value": "The cat is on top of the table."}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_ai_vision_moderation:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "rejection_questions": ["Does this image contain any violent activity?", "Is there any nudity in the image?"]}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: null
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}, "rejection_questions": ["Does this image contain any violent activity?", "Is there any nudity in the image?"]}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"responses": [{"prompt": "Does the image contain any violent activity?", "value": "no"}, {"prompt": "Is there any nudity in the image?", "value": "yes"}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: null
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-ai-vision-moderation:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook", "rejection_questions": ["Does the image contain any violent activity?"]}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"responses": [{"prompt": "Does the image contain any violent activity?", "value": "no"}, {"prompt": "Is there any nudity in the image?", "value": "yes"}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_ai_vision_tagging:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "tag_definitions": [{"name": "cigarettes", "description": "Does the image contain a pack of cigarettes?"}, {"name": "furniture", "description": "Does the image contain any tables, chairs, couches or sofas?"}]}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": [{"name": "cat"}, {"name": "table"}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}, "tag_definitions": [{"name": "cigarettes", "description": "Does the image contain a pack of cigarettes?"}, {"name": "furniture", "description": "Does the image contain any tables, chairs, couches or sofas?"}]}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": [{"name": "cat"}, {"name": "table"}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-ai-vision-tagging:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook", "tag_definitions": [{"name": "cigarettes", "description": "Does the image contain a pack of cigarettes?"}]}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": [{"name": "cat"}, {"name": "table"}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_captioning:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"data": {"caption": "A cat sitting on a table"}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"data": {"caption": "A cat sitting on a table"}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-captioning:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_cld_fashion:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-cld-fashion:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_cld_text:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-cld-text:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_coco:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-coco:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_google_logo_detection:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"logo_annotations": [{"mid": "/m/045c7b", "description": "google", "score": 0.980325, "bounding_poly": {"vertices": [{"x": 12, "y": 42}, {"x": 439, "y": 42}, {"x": 439, "y": 285}, {"x": 12, "y": 285}]}}]}}}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"logo_annotations": [{"mid": "/m/045c7b", "description": "google", "score": 0.980325, "bounding_poly": {"vertices": [{"x": 12, "y": 42}, {"x": 439, "y": 42}, {"x": 439, "y": 285}, {"x": 12, "y": 285}]}}]}}}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-google-logo-detection:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"logo_annotations": [{"mid": "/m/045c7b", "description": "google", "score": 0.980325, "bounding_poly": {"vertices": [{"x": 12, "y": 42}, {"x": 439, "y": 42}, {"x": 439, "y": 285}, {"x": 12, "y": 285}]}}]}}}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_google_tagging:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"label_annotations": {"labels": [{"label": "cat", "score": 0.9}, {"label": "table", "score": 0.8}]}}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"label_annotations": {"labels": [{"label": "cat", "score": 0.9}, {"label": "table", "score": 0.8}]}}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-google-tagging:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"label_annotations": {"labels": [{"label": "cat", "score": 0.9}, {"label": "table", "score": 0.8}]}}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_human_anatomy:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": null}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": null}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-human-anatomy:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": null}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_image_quality:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"quality": "medium", "score": 0.45218, "confidence": 0.8, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: null
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"quality": "medium", "score": 0.45218, "confidence": 0.8, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-image-quality:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": null, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"quality": "medium", "score": 0.45218, "confidence": 0.8, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_lvis:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: null
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-lvis:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_shop_classifier:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-shop-classifier:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_unidet:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-unidet:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"tags": {}, "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: null
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  analyze_watermark_detection:
+    UriExample:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"detections": [{"name": "banner", "confidence": 0.99}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    AssetIDExample:
+      requestBody:
+        application/json: {"source": {"asset_id": "e12345b5c456c8901bbb0efc00c0fcf"}}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"detections": [{"name": "banner", "confidence": 0.99}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+    speakeasy-default-analyze-watermark-detection:
+      requestBody:
+        application/json: {"source": {"uri": "https://res.cloudinary.com/demo/image/upload/sample.jpg"}, "notification_url": "https://path.to/webhook"}
+      responses:
+        "200":
+          application/json: {"limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}, "request_id": "17c3b70c5096df0e77e838323abb7029", "data": {"analysis": {"detections": [{"name": "banner", "confidence": 0.99}], "model_version": 1}}}
+        "202":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "pending"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+  get_analysis_task_status:
+    speakeasy-default-get-analysis-task-status:
+      parameters:
+        path:
+          task_id: "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb"
+      responses:
+        "200":
+          application/json: {"data": {"task_id": "053f4bde4b933c8ecef23724ecde63b667c1ea21816d56c161c7ec1df6297da4b43109625650e9edf0f42152cc4cc32c8ad57824ac75ba8e05020f827c415559ac1248076a2d72c0a73af0479cca77eb", "status": "processing"}, "request_id": "17c3b70c5096df0e77e838323abb7029"}
+        "400":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+        "429":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}, "limits": {"items": [{"type": "ai_vision", "used_by_request": 123, "remaining": 500, "limit": 10000, "reset_time": "2024-01-20T12:34:56Z"}]}}
+        "500":
+          application/json: {"error": {"category": "user_error", "code": "MA_00001", "message": "missing parameters", "details": {}, "request_id": "17c3b70c5096df0e77e838323abb7029"}}
+examplesVersion: 1.0.2

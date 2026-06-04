@@ -1,0 +1,37 @@
+speakeasyVersion: 1.770.0
+sources:
+    Analyze-API-MCP-OAS:
+        sourceNamespace: analyze-api-mcp-oas
+        sourceRevisionDigest: sha256:9dec7ae6c1cf07f11ad72e98abcaddfeb3770c77b1413c6c75ba02049f4d7a51
+        sourceBlobDigest: sha256:03d114ca72d9d6e639c6151317396b7bfc519a0de6e466ba6d6e8ea6e022615b
+        tags:
+            - latest
+            - 0.2.0
+targets:
+    cloudinary-analysis-mcp:
+        source: Analyze-API-MCP-OAS
+        sourceNamespace: analyze-api-mcp-oas
+        sourceRevisionDigest: sha256:9dec7ae6c1cf07f11ad72e98abcaddfeb3770c77b1413c6c75ba02049f4d7a51
+        sourceBlobDigest: sha256:03d114ca72d9d6e639c6151317396b7bfc519a0de6e466ba6d6e8ea6e022615b
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Analyze-API-MCP-OAS:
+            inputs:
+                - location: https://cloudinary.github.io/api-schemas/analysis/schema.yml
+            overlays:
+                - location: https://cloudinary.github.io/api-schemas/overlays/security-scheme-cloud-overlay.yaml
+                - location: https://cloudinary.github.io/api-schemas/overlays/remove-mcp-description.yml
+                - location: https://cloudinary.github.io/api-schemas/analysis/overlays/modifications-overlay.yaml
+                - location: https://cloudinary.github.io/api-schemas/analysis/overlays/name-modifications-overlay.yaml
+                - location: https://cloudinary.github.io/api-schemas/analysis/overlays/source-modifications-overlay.yaml
+            registry:
+                location: registry.speakeasyapi.dev/cloudinary/cloudinary/analyze-api-mcp-oas
+    targets:
+        cloudinary-analysis-mcp:
+            target: mcp-typescript
+            source: Analyze-API-MCP-OAS
+            publish:
+                npm:
+                    token: $npm_token

@@ -1,0 +1,21 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Analyze-API-MCP-OAS:
+        inputs:
+            - location: https://cloudinary.github.io/api-schemas/analysis/schema.yml
+        overlays:
+            - location: https://cloudinary.github.io/api-schemas/overlays/security-scheme-cloud-overlay.yaml
+            - location: https://cloudinary.github.io/api-schemas/overlays/remove-mcp-description.yml
+            - location: https://cloudinary.github.io/api-schemas/analysis/overlays/modifications-overlay.yaml
+            - location: https://cloudinary.github.io/api-schemas/analysis/overlays/name-modifications-overlay.yaml
+            - location: https://cloudinary.github.io/api-schemas/analysis/overlays/source-modifications-overlay.yaml
+        registry:
+            location: registry.speakeasyapi.dev/cloudinary/cloudinary/analyze-api-mcp-oas
+targets:
+    cloudinary-analysis-mcp:
+        target: mcp-typescript
+        source: Analyze-API-MCP-OAS
+        publish:
+            npm:
+                token: $npm_token
