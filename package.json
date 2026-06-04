@@ -1,6 +1,6 @@
 {
   "name": "@cloudinary/analysis-mcp",
-  "version": "0.1.1",
+  "version": "0.5.0",
   "author": "Cloudinary",
   "type": "module",
   "sideEffects": false,
