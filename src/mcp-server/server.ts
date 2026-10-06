@@ -13,6 +13,7 @@ import {
   createRegisterResourceTemplate,
 } from "./resources.js";
 import { MCPScope } from "./scopes.js";
+import { instructions, serverInfo } from "./server-info.js";
 import {
   createRegisterTool,
   MCPToolAnnotationFilter,
@@ -50,7 +51,8 @@ export function createMCPServer(deps: {
   const server = new McpServer({
     name: "CloudinaryAnalysis",
     version: "0.5.0",
-  });
+    ...serverInfo,
+  }, { instructions });
 
   const getClient = deps.getSDK || (() =>
     new CloudinaryAnalysisCore({

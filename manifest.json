@@ -17,7 +17,7 @@
     "media"
   ],
   "license": "MIT",
-  "long_description": "A comprehensive MCP server for Cloudinary's analysis APIs. Run AI-powered analysis on images and videos including moderation, captioning, tagging, and more.",
+  "long_description": "A comprehensive MCP server for Cloudinary's analysis APIs. Run AI-powered analysis on images including moderation, captioning, tagging, and more.",
   "manifest_version": "0.3",
   "name": "@cloudinary/analysis-mcp",
   "privacy_policies": [
