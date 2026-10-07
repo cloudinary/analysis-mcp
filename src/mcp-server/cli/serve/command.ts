@@ -22,6 +22,21 @@ export const serveCommand = buildCommand({
         parse: (val: string) =>
           z.coerce.number().int().gte(0).lt(65536).parse(val),
       },
+      host: {
+        kind: "parsed",
+        brief:
+          "The host address to bind to (default: 127.0.0.1). Use 0.0.0.0 to listen on all interfaces (SECURITY: exposes server to the network)",
+        default: "127.0.0.1",
+        parse: (value) => z.string().parse(value),
+      },
+      "allowed-origins": {
+        kind: "parsed",
+        brief:
+          "Allowed CORS origins (comma-separated). Only requests from these origins will receive CORS headers. Required when accessed cross-origin.",
+        optional: true,
+        variadic: true,
+        parse: (value) => z.string().url("Must be a valid origin URL").parse(value),
+      },
       "disable-static-auth": {
         kind: "boolean",
         brief:
