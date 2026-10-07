@@ -1,9 +1,9 @@
-speakeasyVersion: 1.770.0
+speakeasyVersion: 1.800.1
 sources:
     Analyze-API-MCP-OAS:
         sourceNamespace: analyze-api-mcp-oas
-        sourceRevisionDigest: sha256:9dec7ae6c1cf07f11ad72e98abcaddfeb3770c77b1413c6c75ba02049f4d7a51
-        sourceBlobDigest: sha256:03d114ca72d9d6e639c6151317396b7bfc519a0de6e466ba6d6e8ea6e022615b
+        sourceRevisionDigest: sha256:a372a7e3e116580cf9e6a62a8c3ef136807a938abb3b4365c4826921fc63a0b3
+        sourceBlobDigest: sha256:dd00d1d9e040b0f8c2f8235d14233765ada31e6fd02d4e9c36886434afef920a
         tags:
             - latest
             - 0.2.0
@@ -11,8 +11,8 @@ targets:
     cloudinary-analysis-mcp:
         source: Analyze-API-MCP-OAS
         sourceNamespace: analyze-api-mcp-oas
-        sourceRevisionDigest: sha256:9dec7ae6c1cf07f11ad72e98abcaddfeb3770c77b1413c6c75ba02049f4d7a51
-        sourceBlobDigest: sha256:03d114ca72d9d6e639c6151317396b7bfc519a0de6e466ba6d6e8ea6e022615b
+        sourceRevisionDigest: sha256:a372a7e3e116580cf9e6a62a8c3ef136807a938abb3b4365c4826921fc63a0b3
+        sourceBlobDigest: sha256:dd00d1d9e040b0f8c2f8235d14233765ada31e6fd02d4e9c36886434afef920a
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
