@@ -30,7 +30,7 @@ Analyze an image using the [Shop Classifier](https://cloudinary.com/documentatio
     const [result] = await analyzeShopClassifier(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

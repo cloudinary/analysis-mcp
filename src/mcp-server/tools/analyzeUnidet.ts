@@ -30,7 +30,7 @@ Analyze an image using the [Unidet](https://cloudinary.com/documentation/cloudin
     const [result] = await analyzeUnidet(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

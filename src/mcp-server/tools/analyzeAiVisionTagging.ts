@@ -30,7 +30,7 @@ The Tagging mode accepts a list of tag names along with their corresponding desc
     const [result] = await analyzeAiVisionTagging(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

@@ -30,7 +30,7 @@ Analyze an image using the [Coco](https://cloudinary.com/documentation/cloudinar
     const [result] = await analyzeCoco(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

@@ -30,7 +30,7 @@ Analyze an image using the [Cld-Text](https://cloudinary.com/documentation/cloud
     const [result] = await analyzeCldText(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {
