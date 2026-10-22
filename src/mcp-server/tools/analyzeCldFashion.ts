@@ -30,7 +30,7 @@ Analyze an image using the [Cld-Fashion](https://cloudinary.com/documentation/cl
     const [result] = await analyzeCldFashion(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

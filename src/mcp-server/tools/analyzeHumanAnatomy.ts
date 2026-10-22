@@ -30,7 +30,7 @@ Analyze an image using the [Human Anatomy](https://cloudinary.com/documentation/
     const [result] = await analyzeHumanAnatomy(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

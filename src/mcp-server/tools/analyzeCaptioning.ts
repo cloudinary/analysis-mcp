@@ -30,7 +30,7 @@ Provides a caption for an image.`,
     const [result] = await analyzeCaptioning(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {
