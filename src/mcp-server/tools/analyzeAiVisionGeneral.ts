@@ -30,7 +30,7 @@ The General mode serves a wide array of applications by providing detailed answe
     const [result] = await analyzeAiVisionGeneral(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

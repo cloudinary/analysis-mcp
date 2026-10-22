@@ -30,7 +30,7 @@ Analyze an image using the [Lvis](https://cloudinary.com/documentation/cloudinar
     const [result] = await analyzeLvis(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

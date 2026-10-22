@@ -30,7 +30,7 @@ Detects popular product logos within an image.`,
     const [result] = await analyzeGoogleLogoDetection(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

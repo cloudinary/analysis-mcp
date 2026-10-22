@@ -28,7 +28,7 @@ Get the status of an analysis task.`,
     const [result] = await tasksGetStatus(
       client,
       args.task_id,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

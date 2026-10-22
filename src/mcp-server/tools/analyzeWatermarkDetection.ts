@@ -30,7 +30,7 @@ Analyze an image using the [Watermark Detection](https://cloudinary.com/document
     const [result] = await analyzeWatermarkDetection(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

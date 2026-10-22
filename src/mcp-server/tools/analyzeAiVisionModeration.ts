@@ -30,7 +30,7 @@ The Moderation mode accepts multiple questions about an image, to which the resp
     const [result] = await analyzeAiVisionModeration(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {

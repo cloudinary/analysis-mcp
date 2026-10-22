@@ -30,7 +30,7 @@ Analyze an image using the [Image Quality Analysis](https://cloudinary.com/docum
     const [result] = await analyzeImageQuality(
       client,
       args.request,
-      { fetchOptions: { signal: ctx.signal } },
+      { fetchOptions: { signal: ctx.mcpReq.signal } },
     ).$inspect();
 
     if (!result.ok) {
