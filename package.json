@@ -1,7 +1,8 @@
 {
   "name": "@cloudinary/analysis-mcp",
   "version": "0.5.2",
-  "mcpName": "io.github.cloudinary/analysis-mcp",
+  "mcpName": "com.cloudinary/analysis-mcp",
+  "homepage": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
   "author": "Cloudinary",
   "type": "module",
   "sideEffects": false,
