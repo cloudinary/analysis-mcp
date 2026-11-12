@@ -18,8 +18,14 @@ export const envSchema: z.ZodType<Env> = z.object({
   CLOUDINARY_API_SECRET: z.string().optional(),
   CLOUDINARY_O_AUTH2: z.string().optional(),
 
-  CLOUDINARY_DEBUG: z.coerce.boolean().optional(),
+  CLOUDINARY_DEBUG: z.unknown().transform(parseEnvFlag).optional(),
 });
+
+function parseEnvFlag(value: unknown): boolean {
+  return ["true", "1", "yes", "on"].includes(
+    String(value).trim().toLowerCase(),
+  );
+}
 
 let envMemo: Env | undefined = undefined;
 /**
