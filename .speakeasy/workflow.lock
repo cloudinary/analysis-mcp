@@ -1,4 +1,4 @@
-speakeasyVersion: 1.803.1
+speakeasyVersion: 1.808.1
 sources:
     Analyze-API-MCP-OAS:
         sourceNamespace: analyze-api-mcp-oas
@@ -35,3 +35,6 @@ workflow:
             publish:
                 npm:
                     token: $npm_token
+                mcpRegistry:
+                    auth: http
+                    token: $mcp_registry_token
