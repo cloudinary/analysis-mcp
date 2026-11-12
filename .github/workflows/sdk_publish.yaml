@@ -21,3 +21,4 @@ jobs:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
       npm_token: ${{ secrets.SDK_NPM_AUTH_TOKEN }}
       speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
+      mcp_registry_token: ${{ secrets.MCP_REGISTRY_PRIVATE_KEY }}

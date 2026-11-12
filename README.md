@@ -1,6 +1,6 @@
 # Cloudinary Analysis MCP Server
 
-<!-- mcp-name: io.github.cloudinary/analysis-mcp -->
+<!-- mcp-name: com.cloudinary/analysis-mcp -->
 
 <!-- Start Summary [summary] -->
 ## Summary
